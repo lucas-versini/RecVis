@@ -25,7 +25,7 @@ Here are some of the modifications I made :
 - In `main_test_time_training.py`, lines 104-109, I added arguments to perform online TTT; lines 187-216 use these arguments to create the dataset.
 - In `engine_test_time.py`, lines 124-126, the model is reinitialized depending on the arguments; lines 177 had to be modified due to the lower number of images that we used.
 
-These changes were mostly sufficient to run the experiments presented in the report.
+These changes were mostly sufficient to run the experiments presented in the [report](https://github.com/lucas-versini/RecVis/blob/main/FPR_E_Versini.pdf).
 
 ## Scripts
 
